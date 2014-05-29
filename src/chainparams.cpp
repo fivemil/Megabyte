@@ -33,7 +33,7 @@ public:
         bnProofOfWorkLimit[ALGO_SHA256D] = CBigNum(~uint256(0) >> 20);
         bnProofOfWorkLimit[ALGO_SCRYPT]  = CBigNum(~uint256(0) >> 20);
         bnProofOfWorkLimit[ALGO_GROESTL]   = CBigNum(~uint256(0) >> 20);
-        //nSubsidyHalvingInterval = 524160; // ~ every 6 months (2880 blocks per day including all algorithms)
+
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
         // be spent as it did not originally exist in the database.
@@ -68,8 +68,8 @@ public:
         assert(hashGenesisBlock == uint256("0x000003070f466e13150a395e05856c99c5f70f9934e1d1cc0aa6dd8024de7743"));
         assert(genesis.hashMerkleRoot == uint256("0xda9dc50395fb1134b8bf04ffff1963ee78b1d7c4b423466b85a5ed352ded5cf5"));
 
-        //vSeeds.push_back(CDNSSeedData("dvorakoin.com", "dvorakoin.com"));
-        //vSeeds.push_back(CDNSSeedData("182.18.175.110", "182.18.175.110"));
+        vSeeds.push_back(CDNSSeedData("162.248.4.167", "5.175.134.120"));
+        vSeeds.push_back(CDNSSeedData("5.231.60.198", "60.230.105.175"));
 
 
         base58Prefixes[PUBKEY_ADDRESS] = 30; //DvoraKoin address starts with D
@@ -139,7 +139,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("seed1.dvorakoin.org", "testseed1.dvorakoin.org"));
+        vSeeds.push_back(CDNSSeedData("5.231.60.198", "162.248.4.167"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 12;
         base58Prefixes[SCRIPT_ADDRESS] = 188;
