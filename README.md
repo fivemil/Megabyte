@@ -7,23 +7,18 @@ Copyright (c) 2014 DvoraKoin Developers
 What is DvoraKoin?
 ------------------
 
-DvoraKoin is a new hybrid digital currency from India that enables instant payments to
-anyone, anywhere in the world. DvoraKoin uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network.
+DvoraKoin is a new crypto-currency that includes three algorithms and random rewards.
 
 Specifications
 ------------------
 
 - Proof of Work based. Mine using any of the 3 algorithms : sha256d(default), scrypt or groestl.
 - Difficulty is retargeted every block.
-- 90 second block target per algorithm (30 second average across 3 algorithms).
-- 111 million total coins
-- 72 coins per block. 
-- Random superblock with 5 times the reward.
-- Bonus 1st 2 days after launch where Block reward is 3*72 Coins.
+- 2.5 Minute
+- 1,860,000 Blocks
+- Random Coins per Block Based on Probability
 
-
+https://bitcointalk.org/index.php?topic=613854.0
 
 License
 -------
