@@ -2031,7 +2031,7 @@ bool SetBestChain(CValidationState &state, CBlockIndex* pindexNew)
         printf("REORGANIZE: Disconnect %"PRIszu" blocks; %s..\n", vDisconnect.size(), pfork->GetBlockHash().ToString().c_str());
         printf("REORGANIZE: Connect %"PRIszu" blocks; ..%s\n", vConnect.size(), pindexNew->GetBlockHash().ToString().c_str());
     }
- assert(block.hashMerkleRoot == uint256("da9dc50395fb1134b8bf04ffff1963ee78b1d7c4b423466b85a5ed352ded5cf5")) 
+ 
     // Disconnect shorter branch
     vector<CTransaction> vResurrect;
     BOOST_FOREACH(CBlockIndex* pindex, vDisconnect) {
