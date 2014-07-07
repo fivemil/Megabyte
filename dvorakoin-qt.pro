@@ -1,7 +1,7 @@
 TEMPLATE = app
-TARGET = dvorakoin-qt
-macx:TARGET = "DvoraKoin-Qt"
-VERSION = 0.8.2
+TARGET = trinity-qt
+macx:TARGET = "Trinity-Qt"
+VERSION = 0.9
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
