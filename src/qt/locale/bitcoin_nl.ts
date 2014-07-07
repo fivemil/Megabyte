@@ -123,7 +123,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your DvoraKoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw DvoraKoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw dvorakoins verzendt.</translation>
+        <translation>Dit zijn uw DvoraKoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw trinitys verzendt.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DVORAKOINS&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW DVORAKOINS VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRINITYS&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW TRINITYS VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-56"/>
-        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dvorakoins from being stolen by malware infecting your computer.</source>
-        <translation>DvoraKoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw dvorakoins stelen.</translation>
+        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
+        <translation>DvoraKoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw trinitys stelen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1069,8 +1069,8 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dvorakoin: click-to-pay handler</source>
-        <translation>Kan dvorakoin niet starten: click-to-pay handler</translation>
+        <source>Cannot start trinity: click-to-pay handler</source>
+        <translation>Kan trinity niet starten: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -2197,8 +2197,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or dvorakoind</source>
-        <translation>Stuur commando naar -server of dvorakoind</translation>
+        <source>Send command to -server or trinityd</source>
+        <translation>Stuur commando naar -server of trinityd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,14 +2217,14 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: dvorakoin.conf)</source>
-        <translation>Specificeer configuratiebestand (standaard: dvorakoin.conf)
+        <source>Specify configuration file (default: trinity.conf)</source>
+        <translation>Specificeer configuratiebestand (standaard: trinity.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: dvorakoind.pid)</source>
-        <translation>Specificeer pid-bestand (standaard: dvorakoind.pid)
+        <source>Specify pid file (default: trinityd.pid)</source>
+        <translation>Specificeer pid-bestand (standaard: trinityd.pid)
 </translation>
     </message>
     <message>
@@ -2302,7 +2302,7 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2312,7 +2312,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
 </source>
         <translation>%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
 U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (u hoeft dit wachtwoord niet te onthouden)
 De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.

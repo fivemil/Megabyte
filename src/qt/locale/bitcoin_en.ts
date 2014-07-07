@@ -250,8 +250,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DVORAKOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DVORAKOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRINITYS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRINITYS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -277,8 +277,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dvorakoins from being stolen by malware infecting your computer.</source>
-        <translation>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dvorakoins from being stolen by malware infecting your computer.</translation>
+        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
+        <translation>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1098,8 +1098,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+109"/>
-        <source>Cannot start dvorakoin: click-to-pay handler</source>
-        <translation>Cannot start dvorakoin: click-to-pay handler</translation>
+        <source>Cannot start trinity: click-to-pay handler</source>
+        <translation>Cannot start trinity: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -2242,8 +2242,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or dvorakoind</source>
-        <translation>Send command to -server or dvorakoind</translation>
+        <source>Send command to -server or trinityd</source>
+        <translation>Send command to -server or trinityd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2262,13 +2262,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: dvorakoin.conf)</source>
-        <translation>Specify configuration file (default: dvorakoin.conf)</translation>
+        <source>Specify configuration file (default: trinity.conf)</source>
+        <translation>Specify configuration file (default: trinity.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: dvorakoind.pid)</source>
-        <translation>Specify pid file (default: dvorakoind.pid)</translation>
+        <source>Specify pid file (default: trinityd.pid)</source>
+        <translation>Specify pid file (default: trinityd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2345,7 +2345,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2356,7 +2356,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

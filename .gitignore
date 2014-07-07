@@ -1,7 +1,7 @@
 src/*.exe
-src/dvorakoin
-src/dvorakoind
-src/test_dvorakoin
+src/trinity
+src/trinityd
+src/test_trinity
 .*.swp
 *.*~*
 *.bak
@@ -13,12 +13,12 @@ src/test_dvorakoin
 
 # Compilation and Qt preprocessor part
 *.qm
-dvorakoin-qt
+trinity-qt
 DvoraKoin-Qt.app
 
 # Unit-tests
 Makefile.test
-dvorakoin-qt_test
+trinity-qt_test
 
 # Resources cpp
 qrc_*.cpp

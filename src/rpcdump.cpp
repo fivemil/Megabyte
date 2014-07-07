@@ -69,7 +69,7 @@ Value importprivkey(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 3)
         throw runtime_error(
-            "importprivkey <dvorakoinprivkey> [label] [rescan=true]\n"
+            "importprivkey <trinityprivkey> [label] [rescan=true]\n"
             "Adds a private key (as returned by dumpprivkey) to your wallet.");
 
     EnsureWalletIsUnlocked();
@@ -199,8 +199,8 @@ Value dumpprivkey(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "dumpprivkey <dvorakoinaddress>\n"
-            "Reveals the private key corresponding to <dvorakoinaddress>.");
+            "dumpprivkey <trinityaddress>\n"
+            "Reveals the private key corresponding to <trinityaddress>.");
 
     EnsureWalletIsUnlocked();
 

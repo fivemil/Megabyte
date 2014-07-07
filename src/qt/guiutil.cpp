@@ -83,8 +83,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no dvorakoin URI
-    if(!uri.isValid() || uri.scheme() != QString("dvorakoin"))
+    // return if URI is not valid or is no trinity URI
+    if(!uri.isValid() || uri.scheme() != QString("trinity"))
         return false;
 
     SendCoinsRecipient rv;
@@ -135,13 +135,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert dvorakoin:// to dvorakoin:
+    // Convert trinity:// to trinity:
     //
-    //    Cannot handle this later, because dvorakoin:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because trinity:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("dvorakoin://"))
+    if(uri.startsWith("trinity://"))
     {
-        uri.replace(0, 10, "dvorakoin:");
+        uri.replace(0, 10, "trinity:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -377,7 +377,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "dvorakoin.desktop";
+    return GetAutostartDir() / "trinity.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -415,7 +415,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         boost::filesystem::ofstream optionFile(GetAutostartFilePath(), std::ios_base::out|std::ios_base::trunc);
         if (!optionFile.good())
             return false;
-        // Write a dvorakoin.desktop file to the autostart directory:
+        // Write a trinity.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         optionFile << "Name=DvoraKoin\n";
@@ -437,7 +437,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl);
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl)
 {
-    // loop through the list of startup items and try to find the dvorakoin app
+    // loop through the list of startup items and try to find the trinity app
     CFArrayRef listSnapshot = LSSharedFileListCopySnapshot(list, NULL);
     for(int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
@@ -471,7 +471,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
 
     if(fAutoStart && !foundItem) {
-        // add dvorakoin app to startup item list
+        // add trinity app to startup item list
         LSSharedFileListInsertItemURL(loginItems, kLSSharedFileListItemBeforeFirst, NULL, NULL, bitcoinAppUrl, NULL, NULL);
     }
     else if(!fAutoStart && foundItem) {
@@ -493,7 +493,7 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
     header = tr("DvoraKoin-Qt") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  dvorakoin-qt [" + tr("command-line options") + "]                     " + "\n";
+        "  trinity-qt [" + tr("command-line options") + "]                     " + "\n";
 
     coreOptions = QString::fromStdString(HelpMessage());
 

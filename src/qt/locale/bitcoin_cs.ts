@@ -248,8 +248,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DVORAKOINS&lt;/b&gt;!</source>
-        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY DVORAKOINY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRINITYS&lt;/b&gt;!</source>
+        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY TRINITYY&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-56"/>
-        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dvorakoins from being stolen by malware infecting your computer.</source>
-        <translation>DvoraKoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých dvorakoinů malwarem, kterým se může počítač nakazit.</translation>
+        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
+        <translation>DvoraKoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých trinityů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -945,7 +945,7 @@ Adresa: %4
     <message>
         <location line="+9"/>
         <source>Whether to show DvoraKoin addresses in the transaction list or not.</source>
-        <translation>Zda ukazovat dvorakoinové adresy ve výpisu transakcí nebo ne.</translation>
+        <translation>Zda ukazovat trinityové adresy ve výpisu transakcí nebo ne.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1069,8 +1069,8 @@ Adresa: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dvorakoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit dvorakoin: obsluha click-to-pay</translation>
+        <source>Cannot start trinity: click-to-pay handler</source>
+        <translation>Nemůžu spustit trinity: obsluha click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -2197,8 +2197,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or dvorakoind</source>
-        <translation>Poslat příkaz pro -server nebo dvorakoind</translation>
+        <source>Send command to -server or trinityd</source>
+        <translation>Poslat příkaz pro -server nebo trinityd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: dvorakoin.conf)</source>
-        <translation>Konfigurační soubor (výchozí: dvorakoin.conf)</translation>
+        <source>Specify configuration file (default: trinity.conf)</source>
+        <translation>Konfigurační soubor (výchozí: trinity.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: dvorakoind.pid)</source>
-        <translation>PID soubor (výchozí: dvorakoind.pid)</translation>
+        <source>Specify pid file (default: trinityd.pid)</source>
+        <translation>PID soubor (výchozí: trinityd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,7 +2300,7 @@ Adresa: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2311,7 +2311,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
         <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
 %s
 Je vhodné použít následující náhodné heslo:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (není potřeba si ho pamatovat)
 rpcuser a rpcpassword NESMÍ být stejné.

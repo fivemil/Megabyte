@@ -243,7 +243,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DVORAKOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRINITYS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,7 +270,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dvorakoins from being stolen by malware infecting your computer.</source>
+        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
         <translation>DvoraKoin برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
     </message>
     <message>
@@ -451,7 +451,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-165"/>
         <location line="+530"/>
         <source>DvoraKoin</source>
-        <translation>dvorakoin</translation>
+        <translation>trinity</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -532,7 +532,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+47"/>
         <source>DvoraKoin client</source>
-        <translation>مشتری dvorakoin</translation>
+        <translation>مشتری trinity</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
@@ -731,7 +731,7 @@ Address: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid DvoraKoin address.</source>
-        <translation>آدرس وارد شده &quot;%1&quot; یک آدرس صحیح برای dvorakoin نسشت</translation>
+        <translation>آدرس وارد شده &quot;%1&quot; یک آدرس صحیح برای trinity نسشت</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1009,7 +1009,7 @@ Address: %4
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DvoraKoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه dvorakoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه trinity به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1062,7 +1062,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dvorakoin: click-to-pay handler</source>
+        <source>Cannot start trinity: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1259,7 +1259,7 @@ Address: %4
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the DvoraKoin RPC console.</source>
-        <translation>به کنسول آر.پی.سی. DVORAKOIN خوش آمدید</translation>
+        <translation>به کنسول آر.پی.سی. TRINITY خوش آمدید</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1443,7 +1443,7 @@ Address: %4
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a DvoraKoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>یک آدرس dvorakoin وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>یک آدرس trinity وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1466,7 +1466,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>یک آدرس dvorakoin وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>یک آدرس trinity وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1539,7 +1539,7 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>یک آدرس dvorakoin وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>یک آدرس trinity وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1560,7 +1560,7 @@ Address: %4
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a DvoraKoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>یک آدرس dvorakoin وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>یک آدرس trinity وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2182,7 +2182,7 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>DvoraKoin version</source>
-        <translation>نسخه dvorakoin</translation>
+        <translation>نسخه trinity</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2191,8 +2191,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or dvorakoind</source>
-        <translation>ارسال دستور به سرور یا dvorakoined</translation>
+        <source>Send command to -server or trinityd</source>
+        <translation>ارسال دستور به سرور یا trinityed</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2211,13 +2211,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: dvorakoin.conf)</source>
-        <translation>فایل پیکربندیِ را مشخص کنید (پیش فرض: dvorakoin.conf)</translation>
+        <source>Specify configuration file (default: trinity.conf)</source>
+        <translation>فایل پیکربندیِ را مشخص کنید (پیش فرض: trinity.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: dvorakoind.pid)</source>
-        <translation>فایل pid  را مشخص کنید (پیش فرض: dvorakoind.pid)</translation>
+        <source>Specify pid file (default: trinityd.pid)</source>
+        <translation>فایل pid  را مشخص کنید (پیش فرض: trinityd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2294,7 +2294,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

@@ -248,7 +248,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DVORAKOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRINITYS&lt;/b&gt;!</source>
         <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的多彩币&lt;/b&gt;！</translation>
     </message>
     <message>
@@ -275,7 +275,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dvorakoins from being stolen by malware infecting your computer.</source>
+        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
         <translation>将关闭软件以完成加密过程。 请您谨记：钱包加密并不是万能的，电脑中毒，您的多彩币还是有可能丢失。</translation>
     </message>
     <message>
@@ -1070,7 +1070,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dvorakoin: click-to-pay handler</source>
+        <source>Cannot start trinity: click-to-pay handler</source>
         <translation>暂时无法启动多彩币：点击支付功能</translation>
     </message>
 </context>
@@ -2198,8 +2198,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or dvorakoind</source>
-        <translation>发送命令到服务器或者 dvorakoind
+        <source>Send command to -server or trinityd</source>
+        <translation>发送命令到服务器或者 trinityd
 </translation>
     </message>
     <message>
@@ -2222,14 +2222,14 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: dvorakoin.conf)</source>
-        <translation>指定配置文件 (默认为 dvorakoin.conf)
+        <source>Specify configuration file (default: trinity.conf)</source>
+        <translation>指定配置文件 (默认为 trinity.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: dvorakoind.pid)</source>
-        <translation>指定 pid 文件 (默认为 dvorakoind.pid)
+        <source>Specify pid file (default: trinityd.pid)</source>
+        <translation>指定 pid 文件 (默认为 trinityd.pid)
 </translation>
     </message>
     <message>
@@ -2312,7 +2312,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2323,7 +2323,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
         <translation>%s, 您必须在配置文件设置rpcpassword:
  %s
 建议您使用下面的随机密码:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (您无需记住此密码)
 用户名和密码 必! 须! 不一样。

@@ -68,7 +68,7 @@ public:
         assert(hashGenesisBlock == uint256("0x000003070f466e13150a395e05856c99c5f70f9934e1d1cc0aa6dd8024de7743"));
         assert(genesis.hashMerkleRoot == uint256("0xda9dc50395fb1134b8bf04ffff1963ee78b1d7c4b423466b85a5ed352ded5cf5"));
 
-        //vSeeds.push_back(CDNSSeedData("dvorakoin.com", "dvorakoin.com"));
+        //vSeeds.push_back(CDNSSeedData("trinity.com", "trinity.com"));
         //vSeeds.push_back(CDNSSeedData("182.18.175.110", "182.18.175.110"));
 
 
@@ -139,7 +139,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("seed1.dvorakoin.org", "testseed1.dvorakoin.org"));
+        vSeeds.push_back(CDNSSeedData("seed1.trinity.org", "testseed1.trinity.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 12;
         base58Prefixes[SCRIPT_ADDRESS] = 188;

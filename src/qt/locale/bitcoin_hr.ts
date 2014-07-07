@@ -243,8 +243,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DVORAKOINS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE DVORAKOINSE!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRINITYS&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE TRINITYSE!&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dvorakoins from being stolen by malware infecting your computer.</source>
-        <translation>DvoraKoin će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše dvorakoine od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
+        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
+        <translation>DvoraKoin će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše trinitye od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -415,12 +415,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a DvoraKoin address</source>
-        <translation>Slanje novca na dvorakoin adresu</translation>
+        <translation>Slanje novca na trinity adresu</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for DvoraKoin</source>
-        <translation>Promijeni postavke konfiguracije za dvorakoin</translation>
+        <translation>Promijeni postavke konfiguracije za trinity</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -733,7 +733,7 @@ Adresa:%4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid DvoraKoin address.</source>
-        <translation>Upisana adresa &quot;%1&quot; nije valjana dvorakoin adresa.</translation>
+        <translation>Upisana adresa &quot;%1&quot; nije valjana trinity adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -935,7 +935,7 @@ Adresa:%4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio dvorakoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio trinitya koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1064,7 +1064,7 @@ Adresa:%4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dvorakoin: click-to-pay handler</source>
+        <source>Cannot start trinity: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2192,8 +2192,8 @@ Adresa:%4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or dvorakoind</source>
-        <translation>Pošalji komandu usluzi -server ili dvorakoind</translation>
+        <source>Send command to -server or trinityd</source>
+        <translation>Pošalji komandu usluzi -server ili trinityd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2212,13 +2212,13 @@ Adresa:%4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: dvorakoin.conf)</source>
-        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: dvorakoin.conf)</translation>
+        <source>Specify configuration file (default: trinity.conf)</source>
+        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: trinity.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: dvorakoind.pid)</source>
-        <translation>Odredi proces ID datoteku (ugrađeni izbor: dvorakoin.pid)</translation>
+        <source>Specify pid file (default: trinityd.pid)</source>
+        <translation>Odredi proces ID datoteku (ugrađeni izbor: trinity.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2295,7 +2295,7 @@ Adresa:%4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

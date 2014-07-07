@@ -126,10 +126,10 @@ OBJS += $(OBJS_SSE2)
 endif
 
 
-all: dvorakoind.exe
+all: trinityd.exe
 
-test check: test_dvorakoin.exe FORCE
-	test_dvorakoin.exe
+test check: test_trinity.exe FORCE
+	test_trinity.exe
 
 #
 # LevelDB support
@@ -148,7 +148,7 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(CFLAGS) -fpermissive -o $@ $<
 
-dvorakoind.exe: $(OBJS:obj/%=obj/%)
+trinityd.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -156,11 +156,11 @@ TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 obj-test/%.o: test/%.cpp $(HEADERS)
 	$(CXX) -c $(TESTDEFS) $(CFLAGS) -o $@ $<
 
-test_dvorakoin.exe: $(TESTOBJS) $(filter-out obj/init.o obj/dvorakoind.o,$(OBJS:obj/%=obj/%))
+test_trinity.exe: $(TESTOBJS) $(filter-out obj/init.o obj/trinityd.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework$(BOOST_SUFFIX) $(LIBS)
 
 clean:
-	rm -f dvorakoind.exe test_dvorakoin.exe
+	rm -f trinityd.exe test_trinity.exe
 	rm -f obj/*
 	rm -f obj-test/*
 	cd leveldb && $(MAKE) TARGET_OS=NATIVE_WINDOWS clean && cd ..

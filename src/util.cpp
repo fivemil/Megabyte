@@ -981,7 +981,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "dvorakoin";
+    const char* pszModule = "trinity";
 #endif
     if (pex)
         return strprintf(
@@ -1020,7 +1020,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\DvoraKoin
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\DvoraKoin
     // Mac: ~/Library/Application Support/DvoraKoin
-    // Unix: ~/.dvorakoin
+    // Unix: ~/.trinity
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "DvoraKoin";
@@ -1038,7 +1038,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "DvoraKoin";
 #else
     // Unix
-    return pathRet / ".dvorakoin";
+    return pathRet / ".trinity";
 #endif
 #endif
 }
@@ -1079,7 +1079,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "dvorakoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "trinity.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1089,7 +1089,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good())
-        return; // No dvorakoin.conf file is OK
+        return; // No trinity.conf file is OK
 
     // clear path cache after loading config file
     fCachedPath[0] = fCachedPath[1] = false;
@@ -1099,7 +1099,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override dvorakoin.conf
+        // Don't overwrite existing settings so command line settings override trinity.conf
         string strKey = string("-") + it->string_key;
         if (mapSettingsRet.count(strKey) == 0)
         {
@@ -1113,7 +1113,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "dvorakoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "trinityd.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

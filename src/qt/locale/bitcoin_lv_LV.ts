@@ -243,7 +243,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DVORAKOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRINITYS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,7 +270,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dvorakoins from being stolen by malware infecting your computer.</source>
+        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
         <translation>DvoraKoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
@@ -1064,7 +1064,7 @@ Adrese: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dvorakoin: click-to-pay handler</source>
+        <source>Cannot start trinity: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2192,8 +2192,8 @@ Adrese: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or dvorakoind</source>
-        <translation>Nosūtīt komantu uz -server vai dvorakoind</translation>
+        <source>Send command to -server or trinityd</source>
+        <translation>Nosūtīt komantu uz -server vai trinityd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2212,13 +2212,13 @@ Adrese: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: dvorakoin.conf)</source>
-        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: dvorakoin.conf)</translation>
+        <source>Specify configuration file (default: trinity.conf)</source>
+        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: trinity.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: dvorakoind.pid)</source>
-        <translation>Norādiet pid failu (pēc noklusēšanas: dvorakoind.pid)</translation>
+        <source>Specify pid file (default: trinityd.pid)</source>
+        <translation>Norādiet pid failu (pēc noklusēšanas: trinityd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2295,7 +2295,7 @@ Adrese: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

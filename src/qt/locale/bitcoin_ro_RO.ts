@@ -103,7 +103,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified DvoraKoin address</source>
-        <translation>Verifica mesajul pentru a te asigura ca a fost insemnat cu o adresa dvorakoin specifica</translation>
+        <translation>Verifica mesajul pentru a te asigura ca a fost insemnat cu o adresa trinity specifica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -243,8 +243,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DVORAKOINS&lt;/b&gt;!</source>
-        <translation>Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE DVORAKOIN ACUMULATĂ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRINITYS&lt;/b&gt;!</source>
+        <translation>Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE TRINITY ACUMULATĂ&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dvorakoins from being stolen by malware infecting your computer.</source>
-        <translation>DvoraKoin se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate dvorakoins dvs. de a fi furate de intentii rele.</translation>
+        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
+        <translation>DvoraKoin se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate trinitys dvs. de a fi furate de intentii rele.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -729,7 +729,7 @@ Address: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid DvoraKoin address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă dvorakoin valabilă.</translation>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă trinity valabilă.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -931,7 +931,7 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de dvorakoin.</translation>
+        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de trinity.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -993,7 +993,7 @@ Address: %4
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa dvorakoin pe care a-ti specificat-o este invalida</translation>
+        <translation>Adresa trinity pe care a-ti specificat-o este invalida</translation>
     </message>
 </context>
 <context>
@@ -1060,7 +1060,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dvorakoin: click-to-pay handler</source>
+        <source>Cannot start trinity: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1256,7 +1256,7 @@ Address: %4
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the DvoraKoin RPC console.</source>
-        <translation>Bun venit la consola dvorakoin RPC</translation>
+        <translation>Bun venit la consola trinity RPC</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1331,7 +1331,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Confirmaţi trimiterea de dvorakoin</translation>
+        <translation>Confirmaţi trimiterea de trinity</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1376,7 +1376,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de dvorakoin din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
+        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de trinity din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
     </message>
 </context>
 <context>
@@ -1775,7 +1775,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Monedele dvorakoin generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde.</translation>
+        <translation>Monedele trinity generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2188,8 +2188,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or dvorakoind</source>
-        <translation>Trimite comanda la -server sau dvorakoind</translation>
+        <source>Send command to -server or trinityd</source>
+        <translation>Trimite comanda la -server sau trinityd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2208,12 +2208,12 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: dvorakoin.conf)</source>
-        <translation>Specifica-ți configurația fisierului (in mod normal: dvorakoin.conf)</translation>
+        <source>Specify configuration file (default: trinity.conf)</source>
+        <translation>Specifica-ți configurația fisierului (in mod normal: trinity.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: dvorakoind.pid)</source>
+        <source>Specify pid file (default: trinityd.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2292,7 +2292,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2807,7 +2807,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
     <message>
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart DvoraKoin to complete</source>
-        <translation>Portofelul trebuie rescris: restarteaza aplicatia dvorakoin pentru a face asta.</translation>
+        <translation>Portofelul trebuie rescris: restarteaza aplicatia trinity pentru a face asta.</translation>
     </message>
     <message>
         <location line="-95"/>

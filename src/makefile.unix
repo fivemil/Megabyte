@@ -164,10 +164,10 @@ OBJS += $(OBJS_SSE2)
 endif
 
 
-all: dvorakoind
+all: trinityd
 
-test check: test_dvorakoin FORCE
-	./test_dvorakoin
+test check: test_trinity FORCE
+	./test_trinity
     
 #
 # LevelDB support
@@ -202,7 +202,7 @@ obj/%.o: %.c
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
       
-dvorakoind: $(OBJS:obj/%=obj/%)
+trinityd: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -214,11 +214,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_dvorakoin: $(TESTOBJS) $(filter-out obj/init.o obj/dvorakoind.o,$(OBJS:obj/%=obj/%))
+test_trinity: $(TESTOBJS) $(filter-out obj/init.o obj/trinityd.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f dvorakoind test_dvorakoin
+	-rm -f trinityd test_trinity
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

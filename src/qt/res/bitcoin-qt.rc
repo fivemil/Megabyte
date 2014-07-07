@@ -23,10 +23,10 @@ BEGIN
             VALUE "CompanyName",        "DvoraKoin"
             VALUE "FileDescription",    "DvoraKoin-Qt (OSS GUI client for Bitcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "dvorakoin-qt"
+            VALUE "InternalName",       "trinity-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "dvorakoin-qt.exe"
+            VALUE "OriginalFilename",   "trinity-qt.exe"
             VALUE "ProductName",        "DvoraKoin-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

@@ -248,8 +248,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DVORAKOINS&lt;/b&gt;!</source>
-        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS DVORAKOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRINITYS&lt;/b&gt;!</source>
+        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS TRINITYS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-56"/>
-        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dvorakoins from being stolen by malware infecting your computer.</source>
-        <translation>O cliente DvoraKoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus dvorakoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
+        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
+        <translation>O cliente DvoraKoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus trinitys de serem roubados por programas maliciosos que infectem o seu computador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -420,12 +420,12 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     <message>
         <location line="-347"/>
         <source>Send coins to a DvoraKoin address</source>
-        <translation>Enviar moedas para um endereço dvorakoin</translation>
+        <translation>Enviar moedas para um endereço trinity</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for DvoraKoin</source>
-        <translation>Modificar opções de configuração para dvorakoin</translation>
+        <translation>Modificar opções de configuração para trinity</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -738,7 +738,7 @@ Endereço: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid DvoraKoin address.</source>
-        <translation>O endereço introduzido &quot;%1&quot; não é um endereço dvorakoin válido.</translation>
+        <translation>O endereço introduzido &quot;%1&quot; não é um endereço trinity válido.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -845,7 +845,7 @@ Endereço: %4
     <message>
         <location line="+6"/>
         <source>Automatically open the DvoraKoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente dvorakoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <translation>Abrir a porta do cliente trinity automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1069,8 +1069,8 @@ Endereço: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dvorakoin: click-to-pay handler</source>
-        <translation>Impossível começar o modo clicar-para-pagar com dvorakoin:</translation>
+        <source>Cannot start trinity: click-to-pay handler</source>
+        <translation>Impossível começar o modo clicar-para-pagar com trinity:</translation>
     </message>
 </context>
 <context>
@@ -2197,8 +2197,8 @@ Endereço: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or dvorakoind</source>
-        <translation>Enviar comando para -server ou dvorakoind</translation>
+        <source>Send command to -server or trinityd</source>
+        <translation>Enviar comando para -server ou trinityd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Endereço: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: dvorakoin.conf)</source>
-        <translation>Especificar ficheiro de configuração (por defeito: dvorakoin.conf)</translation>
+        <source>Specify configuration file (default: trinity.conf)</source>
+        <translation>Especificar ficheiro de configuração (por defeito: trinity.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: dvorakoind.pid)</source>
-        <translation>Especificar ficheiro pid (por defeito: dvorakoind.pid)</translation>
+        <source>Specify pid file (default: trinityd.pid)</source>
+        <translation>Especificar ficheiro pid (por defeito: trinityd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,7 +2300,7 @@ Endereço: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2311,7 +2311,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
         <translation>%s, deverá definir rpcpassword no ficheiro de configuração :
  %s
 É recomendado que use a seguinte palavra-passe aleatória:
-rpcuser=dvorakoinrpc
+rpcuser=trinityrpc
 rpcpassword=%s
 (não precisa recordar esta palavra-passe)
 O nome de utilizador e password NÃO DEVEM ser iguais.
