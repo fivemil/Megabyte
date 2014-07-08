@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DvoraKoin</source>
-        <translation>Tietoa DvoraKoinista</translation>
+        <source>About Trinity</source>
+        <translation>Tietoa Trinityista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DvoraKoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;DvoraKoin&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;Trinity&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Trinity&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,7 +35,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+0"/>
-        <source>The DvoraKoin developers</source>
+        <source>The Trinity developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -68,8 +68,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your DvoraKoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat DvoraKoin-osoitteesi joihin voit vastaanottaa maksuja. Voit haluta antaa jokaiselle maksajalle omansa, että pystyt seuraamaan keneltä maksut tulevat.</translation>
+        <source>These are your Trinity addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat Trinity-osoitteesi joihin voit vastaanottaa maksuja. Voit haluta antaa jokaiselle maksajalle omansa, että pystyt seuraamaan keneltä maksut tulevat.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -83,8 +83,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DvoraKoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat DvoraKoin-osoitteen</translation>
+        <source>Sign a message to prove you own a Trinity address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat Trinity-osoitteen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -108,8 +108,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified DvoraKoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä DvoraKoin-osoitteella</translation>
+        <source>Verify a message to ensure it was signed with a specified Trinity address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Trinity-osoitteella</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,7 +123,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your DvoraKoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Trinity addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -276,8 +276,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-56"/>
-        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
-        <translation>DvoraKoin sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
+        <source>Trinity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
+        <translation>Trinity sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -361,7 +361,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Näytä DvoraKoinien vastaanottamiseen käytetyt osoitteet</translation>
+        <translation>Näytä Trinityien vastaanottamiseen käytetyt osoitteet</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -375,8 +375,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DvoraKoin</source>
-        <translation>Näytä tietoa DvoraKoin-projektista</translation>
+        <source>Show information about Trinity</source>
+        <translation>Näytä tietoa Trinity-projektista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a DvoraKoin address</source>
-        <translation>Lähetä kolikoita DvoraKoin-osoitteeseen</translation>
+        <source>Send coins to a Trinity address</source>
+        <translation>Lähetä kolikoita Trinity-osoitteeseen</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for DvoraKoin</source>
-        <translation>Muuta DvoraKoinin konfiguraatioasetuksia</translation>
+        <source>Modify configuration options for Trinity</source>
+        <translation>Muuta Trinityin konfiguraatioasetuksia</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,8 +456,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>DvoraKoin</source>
-        <translation>DvoraKoin</translation>
+        <source>Trinity</source>
+        <translation>Trinity</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,8 +481,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About DvoraKoin</source>
-        <translation>&amp;Tietoa DvoraKoinista</translation>
+        <source>&amp;About Trinity</source>
+        <translation>&amp;Tietoa Trinityista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -492,7 +492,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota DvoraKoin-ikkuna</translation>
+        <translation>Näytä tai piilota Trinity-ikkuna</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -501,13 +501,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your DvoraKoin addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla DvoraKoin -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your Trinity addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla Trinity -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified DvoraKoin addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä DvoraKoin -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified Trinity addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Trinity -osoitteella</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,13 +537,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+47"/>
-        <source>DvoraKoin client</source>
-        <translation>DvoraKoin-asiakas</translation>
+        <source>Trinity client</source>
+        <translation>Trinity-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to DvoraKoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys DvoraKoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä DvoraKoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to Trinity network</source>
+        <translation><numerusform>%n aktiivinen yhteys Trinity-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Trinity-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Osoite: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid DvoraKoin address or malformed URI parameters.</source>
-        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta DvoraKoin-osoitteesta tai virheellisistä URI parametreista.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Trinity address or malformed URI parameters.</source>
+        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta Trinity-osoitteesta tai virheellisistä URI parametreista.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. DvoraKoin can no longer continue safely and will quit.</source>
-        <translation>Peruuttamaton virhe on tapahtunut. DvoraKoin ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
+        <source>A fatal error occurred. Trinity can no longer continue safely and will quit.</source>
+        <translation>Peruuttamaton virhe on tapahtunut. Trinity ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DvoraKoin address.</source>
-        <translation>Antamasi osoite &quot;%1&quot; ei ole validi DvoraKoin-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Trinity address.</source>
+        <translation>Antamasi osoite &quot;%1&quot; ei ole validi Trinity-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Osoite: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>DvoraKoin-Qt</source>
-        <translation>DvoraKoin-Qt</translation>
+        <source>Trinity-Qt</source>
+        <translation>Trinity-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DvoraKoin after logging in to the system.</source>
-        <translation>Käynnistä DvoraKoin kirjautumisen yhteydessä.</translation>
+        <source>Automatically start Trinity after logging in to the system.</source>
+        <translation>Käynnistä Trinity kirjautumisen yhteydessä.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DvoraKoin on system login</source>
-        <translation>&amp;Käynnistä DvoraKoin kirjautumisen yhteydessä</translation>
+        <source>&amp;Start Trinity on system login</source>
+        <translation>&amp;Käynnistä Trinity kirjautumisen yhteydessä</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DvoraKoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa DvoraKoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Trinity client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa Trinity-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DvoraKoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Ota yhteys DvoraKoin-verkkoon SOCKS-proxyn läpi (esimerkiksi kun haluat käyttää Tor-verkkoa).</translation>
+        <source>Connect to the Trinity network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Ota yhteys Trinity-verkkoon SOCKS-proxyn läpi (esimerkiksi kun haluat käyttää Tor-verkkoa).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -910,7 +910,7 @@ Osoite: %4</translation>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Ikkunaa suljettaessa vain pienentää DvoraKoin-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
+        <translation>Ikkunaa suljettaessa vain pienentää Trinity-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DvoraKoin.</source>
-        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun DvoraKoin käynnistetään.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Trinity.</source>
+        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun Trinity käynnistetään.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DvoraKoin addresses in the transaction list or not.</source>
-        <translation>Näytetäänkö DvoraKoin-osoitteet rahansiirrot listassa vai ei.</translation>
+        <source>Whether to show Trinity addresses in the transaction list or not.</source>
+        <translation>Näytetäänkö Trinity-osoitteet rahansiirrot listassa vai ei.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Osoite: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DvoraKoin.</source>
-        <translation>Tämä asetus astuu voimaan seuraavalla kerralla, kun DvoraKoin käynnistetään.</translation>
+        <source>This setting will take effect after restarting Trinity.</source>
+        <translation>Tämä asetus astuu voimaan seuraavalla kerralla, kun Trinity käynnistetään.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Osoite: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DvoraKoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu DvoraKoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Trinity network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Trinity-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1051,12 +1051,12 @@ Osoite: %4</translation>
     <message>
         <location line="-101"/>
         <source>Your current balance</source>
-        <translation>Tililläsi tällä hetkellä olevien DvoraKoinien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien Trinityien määrä</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Niiden saapuvien rahansiirtojen määrä, joita DvoraKoin-verkko ei vielä ole ehtinyt vahvistaa ja siten eivät vielä näy saldossa.</translation>
+        <translation>Niiden saapuvien rahansiirtojen määrä, joita Trinity-verkko ei vielä ole ehtinyt vahvistaa ja siten eivät vielä näy saldossa.</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
@@ -1219,8 +1219,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DvoraKoin-Qt help message to get a list with possible DvoraKoin command-line options.</source>
-        <translation>Näytä DvoraKoin-Qt komentoriviparametrien ohjesivu, jossa on listattuna mahdolliset komentoriviparametrit.</translation>
+        <source>Show the Trinity-Qt help message to get a list with possible Trinity command-line options.</source>
+        <translation>Näytä Trinity-Qt komentoriviparametrien ohjesivu, jossa on listattuna mahdolliset komentoriviparametrit.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>DvoraKoin - Debug window</source>
-        <translation>DvoraKoin - Debug ikkuna</translation>
+        <source>Trinity - Debug window</source>
+        <translation>Trinity - Debug ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DvoraKoin Core</source>
-        <translation>DvoraKoin-ydin</translation>
+        <source>Trinity Core</source>
+        <translation>Trinity-ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,7 +1254,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DvoraKoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Trinity debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Avaa lokitiedosto nykyisestä data-kansiosta. Tämä voi viedä useamman sekunnin, jos lokitiedosto on iso.</translation>
     </message>
     <message>
@@ -1264,8 +1264,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the DvoraKoin RPC console.</source>
-        <translation>Tervetuloa DvoraKoin RPC konsoliin.</translation>
+        <source>Welcome to the Trinity RPC console.</source>
+        <translation>Tervetuloa Trinity RPC konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1290,7 +1290,7 @@ Osoite: %4</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Lähetä DvoraKoineja</translation>
+        <translation>Lähetä Trinityeja</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1340,7 +1340,7 @@ Osoite: %4</translation>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Hyväksy DvoraKoinien lähettäminen</translation>
+        <translation>Hyväksy Trinityien lähettäminen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1360,7 +1360,7 @@ Osoite: %4</translation>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Maksettavan summan tulee olla suurempi kuin 0 DvoraKoinia.</translation>
+        <translation>Maksettavan summan tulee olla suurempi kuin 0 Trinityia.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1448,8 +1448,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DvoraKoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Anna DvoraKoin-osoite (esim. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Trinity address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Anna Trinity-osoite (esim. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DvoraKoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän DvoraKoin-osoitteen</translation>
+        <source>Sign the message to prove you own this Trinity address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Trinity-osoitteen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DvoraKoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä DvoraKoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Trinity address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Trinity-osoitteella</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Osoite: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DvoraKoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Anna DvoraKoin-osoite (esim. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Trinity address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Anna Trinity-osoite (esim. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DvoraKoin signature</source>
-        <translation>Syötä DvoraKoin-allekirjoitus</translation>
+        <source>Enter Trinity signature</source>
+        <translation>Syötä Trinity-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,7 +1649,7 @@ Osoite: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The DvoraKoin developers</source>
+        <source>The Trinity developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1955,7 +1955,7 @@ Osoite: %4</translation>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>Rahansiirron kohteen DvoraKoin-osoite</translation>
+        <translation>Rahansiirron kohteen Trinity-osoite</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2137,7 +2137,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Lähetä DvoraKoineja</translation>
+        <translation>Lähetä Trinityeja</translation>
     </message>
 </context>
 <context>
@@ -2187,8 +2187,8 @@ Osoite: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>DvoraKoin version</source>
-        <translation>DvoraKoinin versio</translation>
+        <source>Trinity version</source>
+        <translation>Trinityin versio</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2306,7 +2306,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2322,7 +2322,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. DvoraKoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Trinity is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2367,8 +2367,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DvoraKoin will not work properly.</source>
-        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! DvoraKoin ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Trinity will not work properly.</source>
+        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! Trinity ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2617,8 +2617,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the DvoraKoin Wiki for SSL setup instructions)</source>
-        <translation>SSL asetukset (katso DvoraKoin Wikistä tarkemmat SSL ohjeet)</translation>
+        <source>SSL options: (see the Trinity Wiki for SSL setup instructions)</source>
+        <translation>SSL asetukset (katso Trinity Wikistä tarkemmat SSL ohjeet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2808,13 +2808,13 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DvoraKoin</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version DvoraKoinista</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Trinity</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Trinityista</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart DvoraKoin to complete</source>
-        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä DvoraKoin uudelleen</translation>
+        <source>Wallet needed to be rewritten: restart Trinity to complete</source>
+        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä Trinity uudelleen</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2873,8 +2873,8 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. DvoraKoin is probably already running.</source>
-        <translation>Kytkeytyminen %s ei onnistu tällä tietokoneella. DvoraKoin on todennäköisesti jo ajamassa.</translation>
+        <source>Unable to bind to %s on this computer. Trinity is probably already running.</source>
+        <translation>Kytkeytyminen %s ei onnistu tällä tietokoneella. Trinity on todennäköisesti jo ajamassa.</translation>
     </message>
     <message>
         <location line="+64"/>

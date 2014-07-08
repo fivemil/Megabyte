@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DvoraKoin</source>
-        <translation>در مورد DvoraKoin</translation>
+        <source>About Trinity</source>
+        <translation>در مورد Trinity</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DvoraKoin&lt;/b&gt; version</source>
-        <translation>نسخه DvoraKoin</translation>
+        <source>&lt;b&gt;Trinity&lt;/b&gt; version</source>
+        <translation>نسخه Trinity</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The DvoraKoin developers</source>
+        <source>The Trinity developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,7 +62,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your DvoraKoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Trinity addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>این آدرسها، آدرسهای trinity شما برای دریافت وجوه هستند. شما ممکن است آدرسهای متفاوت را به هر گیرنده اختصاص دهید که بتوانید مواردی که پرداخت می کنید را پیگیری نمایید</translation>
     </message>
     <message>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DvoraKoin address</source>
-        <translation>پیام را برای اثبات آدرس DvoraKoin خود امضا کنید</translation>
+        <source>Sign a message to prove you own a Trinity address</source>
+        <translation>پیام را برای اثبات آدرس Trinity خود امضا کنید</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified DvoraKoin address</source>
+        <source>Verify a message to ensure it was signed with a specified Trinity address</source>
         <translation>یک پیام را برای حصول اطمینان از ورود به سیستم با آدرس trinity مشخص، شناسایی کنید</translation>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your DvoraKoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Trinity addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -271,7 +271,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>DvoraKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
+        <source>Trinity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
         <translation>Biticon هم اکنون بسته می‌شود تا فرایند رمزگذاری را تمام کند. به خاطر داشته باشید که رمزگذاری کیف پولتان نمی‌تواند به طور کامل بیتیکون‌های شما را در برابر دزدیده شدن توسط بدافزارهایی که رایانه شما را آلوده می‌کنند، محافظت نماید.</translation>
     </message>
     <message>
@@ -370,7 +370,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DvoraKoin</source>
+        <source>Show information about Trinity</source>
         <translation>نمایش اطلاعات در مورد بیتکویین</translation>
     </message>
     <message>
@@ -415,12 +415,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a DvoraKoin address</source>
+        <source>Send coins to a Trinity address</source>
         <translation>سکه ها را به آدرس bitocin ارسال کن</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for DvoraKoin</source>
+        <source>Modify configuration options for Trinity</source>
         <translation>انتخابهای پیکربندی را برای trinity اصلاح کن</translation>
     </message>
     <message>
@@ -451,7 +451,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>DvoraKoin</source>
+        <source>Trinity</source>
         <translation>یت کویین </translation>
     </message>
     <message>
@@ -476,7 +476,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About DvoraKoin</source>
+        <source>&amp;About Trinity</source>
         <translation>در مورد trinity</translation>
     </message>
     <message>
@@ -496,12 +496,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your DvoraKoin addresses to prove you own them</source>
+        <source>Sign messages with your Trinity addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified DvoraKoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Trinity addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -532,12 +532,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>DvoraKoin client</source>
-        <translation>مشتری DvoraKoin</translation>
+        <source>Trinity client</source>
+        <translation>مشتری Trinity</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to DvoraKoin network</source>
+        <source>%n active connection(s) to Trinity network</source>
         <translation><numerusform>در صد ارتباطات فعال بیتکویین با شبکه %n</numerusform></translation>
     </message>
     <message>
@@ -651,7 +651,7 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid DvoraKoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Trinity address or malformed URI parameters.</source>
         <translation>URI قابل تحلیل نیست. این خطا ممکن است به دلیل ادرس TRINITY اشتباه یا پارامترهای اشتباه URI رخ داده باشد</translation>
     </message>
     <message>
@@ -666,8 +666,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. DvoraKoin can no longer continue safely and will quit.</source>
-        <translation>خطا روی داده است. DvoraKoin نمی تواند بدون مشکل ادامه دهد و باید بسته شود</translation>
+        <source>A fatal error occurred. Trinity can no longer continue safely and will quit.</source>
+        <translation>خطا روی داده است. Trinity نمی تواند بدون مشکل ادامه دهد و باید بسته شود</translation>
     </message>
 </context>
 <context>
@@ -732,7 +732,7 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DvoraKoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Trinity address.</source>
         <translation>آدرس وارد شده %1 یک ادرس صحیح trinity نیست</translation>
     </message>
     <message>
@@ -751,8 +751,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>DvoraKoin-Qt</source>
-        <translation>DvoraKoin-Qt</translation>
+        <source>Trinity-Qt</source>
+        <translation>Trinity-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -814,12 +814,12 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DvoraKoin after logging in to the system.</source>
+        <source>Automatically start Trinity after logging in to the system.</source>
         <translation>در زمان ورود به سیستم به صورت خودکار trinity را اجرا کن</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DvoraKoin on system login</source>
+        <source>&amp;Start Trinity on system login</source>
         <translation>اجرای trinity در زمان ورود به سیستم</translation>
     </message>
     <message>
@@ -839,7 +839,7 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DvoraKoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Trinity client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>اتوماتیک باز کردن بندر بیتکویین در روتر . این فقط در مواردی می باشد که روتر با کمک یو پ ن پ کار می کند</translation>
     </message>
     <message>
@@ -849,7 +849,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DvoraKoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Trinity network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>اتصال به شبکه TRINITY از طریق پراکسی ساکس (برای مثال وقتی از طریق نرم افزار TOR متصل می شوید)</translation>
     </message>
     <message>
@@ -924,7 +924,7 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DvoraKoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Trinity.</source>
         <translation>زبان میانجی کاربر می تواند در اینجا تنظیم شود. این تنظیمات بعد از شروع دوباره RESTART در TRINITY اجرایی خواهند بود.</translation>
     </message>
     <message>
@@ -939,7 +939,7 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DvoraKoin addresses in the transaction list or not.</source>
+        <source>Whether to show Trinity addresses in the transaction list or not.</source>
         <translation>تا آدرسهای bITCOIN در فهرست تراکنش نمایش داده شوند یا نشوند.</translation>
     </message>
     <message>
@@ -991,8 +991,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DvoraKoin.</source>
-        <translation>این تنظیمات پس از اجرای دوباره DvoraKoin اعمال می شوند</translation>
+        <source>This setting will take effect after restarting Trinity.</source>
+        <translation>این تنظیمات پس از اجرای دوباره Trinity اعمال می شوند</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1010,7 +1010,7 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DvoraKoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Trinity network after a connection is established, but this process has not completed yet.</source>
         <translation>اطلاعات نمایش داده شده روزآمد نیستند.wallet  شما به صورت خودکار با شبکه trinity بعد از برقراری اتصال روزآمد می شود اما این فرایند هنوز کامل نشده است.</translation>
     </message>
     <message>
@@ -1214,8 +1214,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DvoraKoin-Qt help message to get a list with possible DvoraKoin command-line options.</source>
-        <translation>پیام راهنمای DvoraKoin-Qt  را برای گرفتن فهرست گزینه های command-line نشان بده</translation>
+        <source>Show the Trinity-Qt help message to get a list with possible Trinity command-line options.</source>
+        <translation>پیام راهنمای Trinity-Qt  را برای گرفتن فهرست گزینه های command-line نشان بده</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1234,13 +1234,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>DvoraKoin - Debug window</source>
-        <translation>صفحه اشکال زدایی DvoraKoin </translation>
+        <source>Trinity - Debug window</source>
+        <translation>صفحه اشکال زدایی Trinity </translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DvoraKoin Core</source>
-        <translation> هسته DvoraKoin </translation>
+        <source>Trinity Core</source>
+        <translation> هسته Trinity </translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1249,8 +1249,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DvoraKoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>فایلِ لاگِ اشکال زدایی DvoraKoin  را از دایرکتوری جاری داده ها باز کنید. این عملیات ممکن است برای فایلهای لاگِ حجیم طولانی شود.</translation>
+        <source>Open the Trinity debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>فایلِ لاگِ اشکال زدایی Trinity  را از دایرکتوری جاری داده ها باز کنید. این عملیات ممکن است برای فایلهای لاگِ حجیم طولانی شود.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1259,8 +1259,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the DvoraKoin RPC console.</source>
-        <translation>به کنسول DvoraKoin RPC خوش آمدید</translation>
+        <source>Welcome to the Trinity RPC console.</source>
+        <translation>به کنسول Trinity RPC خوش آمدید</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1443,7 +1443,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DvoraKoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Trinity address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
@@ -1508,7 +1508,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DvoraKoin address</source>
+        <source>Sign the message to prove you own this Trinity address</source>
         <translation>پیام را برای اثبات آدرس TRINITY خود امضا کنید</translation>
     </message>
     <message>
@@ -1544,7 +1544,7 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DvoraKoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Trinity address</source>
         <translation>پیام را برای اطمنان از ورود به سیستم با آدرس TRINITY مشخص خود،تایید کنید</translation>
     </message>
     <message>
@@ -1560,7 +1560,7 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DvoraKoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Trinity address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
@@ -1570,7 +1570,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DvoraKoin signature</source>
+        <source>Enter Trinity signature</source>
         <translation>امضای BITOCOIN خود را وارد کنید</translation>
     </message>
     <message>
@@ -1644,7 +1644,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The DvoraKoin developers</source>
+        <source>The Trinity developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2185,7 +2185,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>DvoraKoin version</source>
+        <source>Trinity version</source>
         <translation>سخه بیتکویین</translation>
     </message>
     <message>
@@ -2304,7 +2304,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2320,7 +2320,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. DvoraKoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Trinity is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2365,7 +2365,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DvoraKoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Trinity will not work properly.</source>
         <translation>هشدار: لطفا زمان و تاریخ رایانه خود را تصحیح نمایید! اگر ساعت رایانه شما اشتباه باشد trinity ممکن است صحیح کار نکند</translation>
     </message>
     <message>
@@ -2615,7 +2615,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the DvoraKoin Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the Trinity Wiki for SSL setup instructions)</source>
         <translation>گزینه ssl (به ویکیtrinity برای راهنمای راه اندازی ssl مراجعه شود)</translation>
     </message>
     <message>
@@ -2805,12 +2805,12 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DvoraKoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Trinity</source>
         <translation>خطا در بارگیری wallet.dat: کیف پول به ویرایش جدیدتری از Biticon نیاز دارد</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart DvoraKoin to complete</source>
+        <source>Wallet needed to be rewritten: restart Trinity to complete</source>
         <translation>سلام</translation>
     </message>
     <message>
@@ -2870,8 +2870,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DvoraKoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. DvoraKoin is probably already running.</source>
-        <translation>اتصال به %s از این رایانه امکان پذیر نیست. DvoraKoin احتمالا در حال اجراست.</translation>
+        <source>Unable to bind to %s on this computer. Trinity is probably already running.</source>
+        <translation>اتصال به %s از این رایانه امکان پذیر نیست. Trinity احتمالا در حال اجراست.</translation>
     </message>
     <message>
         <location line="+64"/>

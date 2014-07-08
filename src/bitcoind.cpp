@@ -47,7 +47,7 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to trinityd / RPC client
-            std::string strUsage = _("DvoraKoin version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("Trinity version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
                   "  trinityd [options]                     " + "\n" +
                   "  trinityd [options] <command> [params]  " + _("Send command to -server or trinityd") + "\n" +

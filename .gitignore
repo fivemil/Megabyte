@@ -14,7 +14,7 @@ src/test_trinity
 # Compilation and Qt preprocessor part
 *.qm
 trinity-qt
-DvoraKoin-Qt.app
+Trinity-Qt.app
 
 # Unit-tests
 Makefile.test

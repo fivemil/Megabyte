@@ -72,7 +72,7 @@ public:
         //vSeeds.push_back(CDNSSeedData("182.18.175.110", "182.18.175.110"));
 
 
-        base58Prefixes[PUBKEY_ADDRESS] = 30; //DvoraKoin address starts with D
+        base58Prefixes[PUBKEY_ADDRESS] = 30; //Trinity address starts with D
         base58Prefixes[SCRIPT_ADDRESS] = 5;
         base58Prefixes[SECRET_KEY] = 177;
 

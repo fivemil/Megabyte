@@ -1017,13 +1017,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\DvoraKoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\DvoraKoin
-    // Mac: ~/Library/Application Support/DvoraKoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Trinity
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Trinity
+    // Mac: ~/Library/Application Support/Trinity
     // Unix: ~/.trinity
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "DvoraKoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Trinity";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1035,7 +1035,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "DvoraKoin";
+    return pathRet / "Trinity";
 #else
     // Unix
     return pathRet / ".trinity";
@@ -1337,7 +1337,7 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong DvoraKoin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Trinity will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
                     uiInterface.ThreadSafeMessageBox(strMessage, "", CClientUIInterface::MSG_WARNING);
