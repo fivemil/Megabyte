@@ -11,7 +11,7 @@ Specifications
 ------------------
 
 - Proof of Work based. Mine using any of the 3 algorithms : sha256d(default), scrypt or groestl.
-- Difficulty is retargeted every block.
+- Difficulty is retargeted every 2 blocks.
 - 1 Minute Block Time
 - 1,680,000 Blocks
 - Random Coins per Block Based on Probability
