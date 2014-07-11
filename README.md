@@ -31,3 +31,5 @@ information or see http://opensource.org/licenses/MIT.
 
 Deps
 you need libboost1.49-all-dev
+[apt-get update 
+[apt-get install build-essential liboost1.49-dev libssl-dev libdb4.8-dev libdb4.8++-dev libqrencode-dev libminiupnpc-dev git
