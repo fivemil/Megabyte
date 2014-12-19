@@ -140,6 +140,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("seed1.trinity.org", "testseed1.trinity.org"));
+        vSeeds.push_back(CDNSSeedData("seed2.dirtydiggers.org", "www.dirtydiggers.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 12;
         base58Prefixes[SCRIPT_ADDRESS] = 188;
