@@ -1320,9 +1320,10 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
         nSubsidy *= 50;
     }
 
-    if(nHeight > 900000) // no block reward after 4 years
+    if(nHeight > 900000) 
                 nSubsidy = 0;
-    
+    if(nheight > 1000000)
+		        nSubsidy = (1 + rand1) * COIN;
 
 
     return nSubsidy + nFees;
@@ -1332,11 +1333,11 @@ static const int64 nTargetTimespan = 1 * 60; // 1 minutes (NUM_ALGOS * 30 second
 static const int64 nTargetSpacing = 1 * 60; // 1 minutes (NUM_ALGOS * 30 seconds) between blocks
 static const int64 nInterval = 2; // retargets every 2 blocks
 
-static const int64 nAveragingInterval = 10; // 10 blocks
+static const int64 nAveragingInterval = 1; // 1 block
 static const int64 nAveragingTargetTimespan = nAveragingInterval * nTargetSpacing; // 15 minutes
 
-static const int64 nMaxAdjustDown = 100; // 4% adjustment down
-static const int64 nMaxAdjustUp = 10; // 2% adjustment up
+static const int64 nMaxAdjustDown = 10; // 10% adjustment down
+static const int64 nMaxAdjustUp = 11; // 11% adjustment up
 
 static const int64 nTargetTimespanAdjDown = nTargetTimespan * (100 + nMaxAdjustDown) / 100;
 
