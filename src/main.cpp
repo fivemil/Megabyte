@@ -41,6 +41,8 @@ map<uint256, CBlockIndex*> mapBlockIndex;
 std::vector<CBlockIndex*> vBlockIndexByHeight;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
+int firstFork = 915235;
+int secondFork = 100000;
 uint256 nBestChainWork = 0;
 uint256 nBestInvalidWork = 0;
 uint256 hashBestChain = 0;
@@ -1407,6 +1409,17 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
         }
     }
 	// blockheight determins averaging rules
+	if(pindexLast->nHeight+1 >= firstFork){
+		nAveragingInterval = nAveragingInterval2;
+		nMaxAdjustDown = nMaxAdjustDown2; 
+		nMaxAdjustUp = nMaxAdjustUp2;
+	}
+	
+	if(pindexLast->nHeight+1 >= secondFork){
+		nAveragingInterval = nAveragingInterval3;
+		nMaxAdjustDown = nMaxAdjustDown3; 
+		nMaxAdjustUp = nMaxAdjustUp3;
+	}
 	
     // find previous block with same algo
     const CBlockIndex* pindexPrev = GetLastBlockIndexForAlgo(pindexLast, algo);
