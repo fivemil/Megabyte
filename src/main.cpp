@@ -1335,10 +1335,16 @@ static const int64 nTargetSpacing = 1 * 60; // 1 minutes (NUM_ALGOS * 30 seconds
 static const int64 nInterval = 2; // retargets every 2 blocks
 
 static const int64 nAveragingInterval = 10; // 10 blocks
+static const int64 nAveragingInterval2 = 1; // 1 blocks
 static const int64 nAveragingTargetTimespan = nAveragingInterval * nTargetSpacing; // 15 minutes
 
-static const int64 nMaxAdjustDown = 5; // 5% adjustment down
-static const int64 nMaxAdjustUp = 5; // 5% adjustment up
+static const int64 nMaxAdjustDown = 100; // 100% adjustment down
+static const int64 nMaxAdjustDown2 = 10; // 10% adjustment down
+static const int64 nMaxAdjustDown3 = 5; // 5% adjustment down
+
+static const int64 nMaxAdjustUp = 10; // 10% adjustment up
+static const int64 nMaxAdjustUp2 = 11; // 11% adjustment up
+static const int64 nMaxAdjustUp3 = 5; // 5% adjustment up
 
 static const int64 nTargetTimespanAdjDown = nTargetTimespan * (100 + nMaxAdjustDown) / 100;
 
@@ -1400,7 +1406,8 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
             return pindex->nBits;
         }
     }
-
+	// blockheight determins averaging rules
+	
     // find previous block with same algo
     const CBlockIndex* pindexPrev = GetLastBlockIndexForAlgo(pindexLast, algo);
     
