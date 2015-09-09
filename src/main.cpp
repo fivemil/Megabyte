@@ -1348,7 +1348,7 @@ static int64 nMaxAdjustUp = 10; // 10% adjustment up
 static int64 nMaxAdjustUp2 = 11; // 11% adjustment up
 static int64 nMaxAdjustUp3 = 5; // 5% adjustment up
 
-static int64 nTargetTimespanAdjDown = nTargetTimespan * (100 + nMaxAdjustDown) / 100;
+//static int64 nTargetTimespanAdjDown = nTargetTimespan * (100 + nMaxAdjustDown) / 100;
 
 //
 // minimum amount of work that could possibly be required nTime after
@@ -1416,7 +1416,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
 	}
 	
 	if(pindexLast->nHeight+1 >= secondFork){
-		nAveragingInterval = nAveragingInterval3;
+		nAveragingInterval = nAveragingInterval;
 		nMaxAdjustDown = nMaxAdjustDown3; 
 		nMaxAdjustUp = nMaxAdjustUp3;
 	}
