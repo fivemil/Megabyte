@@ -3,6 +3,7 @@
 // Copyright (c) 2013-2014 The Zetacoin developers
 // Copyright (c) 2014 The Huntercoin developers
 // Copyright (c) 2014 The Trinity developers
+// Copyright (c) 2015 Franko Collective Action Committee
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -41,6 +42,8 @@ map<uint256, CBlockIndex*> mapBlockIndex;
 std::vector<CBlockIndex*> vBlockIndexByHeight;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
+int firstFork = 915235;
+int secondFork = 955000;
 uint256 nBestChainWork = 0;
 uint256 nBestInvalidWork = 0;
 uint256 hashBestChain = 0;
@@ -1330,17 +1333,23 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 1 * 60; // 1 minutes (NUM_ALGOS * 30 seconds) readjusts difficulty
-static const int64 nTargetSpacing = 1 * 60; // 1 minutes (NUM_ALGOS * 30 seconds) between blocks
-static const int64 nInterval = 2; // retargets every 2 blocks
+static int64 nTargetTimespan = 1 * 60; // 1 minutes (NUM_ALGOS * 30 seconds) readjusts difficulty
+static int64 nTargetSpacing = 1 * 60; // 1 minutes (NUM_ALGOS * 30 seconds) between blocks
+static int64 nInterval = 2; // retargets every 2 blocks
 
-static const int64 nAveragingInterval = 10; // 10 blocks
-static const int64 nAveragingTargetTimespan = nAveragingInterval * nTargetSpacing; // 15 minutes
+static int64 nAveragingInterval = 10; // 10 blocks
+static int64 nAveragingInterval2 = 1; // 1 blocks
+static int64 nAveragingTargetTimespan = nAveragingInterval * nTargetSpacing; // 15 minutes
 
-static const int64 nMaxAdjustDown = 5; // 5% adjustment down
-static const int64 nMaxAdjustUp = 5; // 5% adjustment up
+static int64 nMaxAdjustDown = 100; // 100% adjustment down
+static int64 nMaxAdjustDown2 = 10; // 10% adjustment down
+static int64 nMaxAdjustDown3 = 5; // 5% adjustment down
 
-static const int64 nTargetTimespanAdjDown = nTargetTimespan * (100 + nMaxAdjustDown) / 100;
+static int64 nMaxAdjustUp = 10; // 10% adjustment up
+static int64 nMaxAdjustUp2 = 11; // 11% adjustment up
+static int64 nMaxAdjustUp3 = 5; // 5% adjustment up
+
+//static int64 nTargetTimespanAdjDown = nTargetTimespan * (100 + nMaxAdjustDown) / 100;
 
 //
 // minimum amount of work that could possibly be required nTime after
@@ -1400,7 +1409,19 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
             return pindex->nBits;
         }
     }
-
+	// blockheight determins averaging rules
+	if(pindexLast->nHeight+1 >= firstFork){
+		nAveragingInterval = nAveragingInterval2;
+		nMaxAdjustDown = nMaxAdjustDown2; 
+		nMaxAdjustUp = nMaxAdjustUp2;
+	}
+	
+	if(pindexLast->nHeight+1 >= secondFork){
+		nAveragingInterval = nAveragingInterval;
+		nMaxAdjustDown = nMaxAdjustDown3; 
+		nMaxAdjustUp = nMaxAdjustUp3;
+	}
+	
     // find previous block with same algo
     const CBlockIndex* pindexPrev = GetLastBlockIndexForAlgo(pindexLast, algo);
     
