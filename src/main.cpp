@@ -42,7 +42,7 @@ std::vector<CBlockIndex*> vBlockIndexByHeight;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 int firstFork = 915235;
-int secondFork = 100000;
+int secondFork = 955000;
 uint256 nBestChainWork = 0;
 uint256 nBestInvalidWork = 0;
 uint256 hashBestChain = 0;
