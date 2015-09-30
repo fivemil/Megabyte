@@ -3,6 +3,7 @@
 // Copyright (c) 2013-2014 The Zetacoin developers
 // Copyright (c) 2014 The Huntercoin developers
 // Copyright (c) 2014 The Trinity developers
+// Copyright (c) 2015 Franko Collective Action Committee
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
