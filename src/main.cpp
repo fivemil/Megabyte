@@ -1337,8 +1337,11 @@ static const int64 nInterval = 2; // retargets every 2 blocks
 static const int64 nAveragingInterval = 10; // 10 blocks
 static const int64 nAveragingTargetTimespan = nAveragingInterval * nTargetSpacing; // 15 minutes
 
-static const int64 nMaxAdjustDown = 5; // 5% adjustment down
-static const int64 nMaxAdjustUp = 5; // 5% adjustment up
+static int64 nMaxAdjustDown = 100; // 100% adjustment down
+static int64 nMaxAdjustUp = 10; // 10% adjustment up
+
+static const int64 nMaxAdjustDown2 = 5; // 5% adjustment down
+static const int64 nMaxAdjustUp2 = 5; // 5% adjustment up
 
 static const int64 nTargetTimespanAdjDown = nTargetTimespan * (100 + nMaxAdjustDown) / 100;
 
@@ -1372,8 +1375,6 @@ unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
     return Params().ProofOfWorkLimit(ALGO_SHA256D).GetCompact();
 }
 
-static const int64 nMinActualTimespan = nAveragingTargetTimespan * (100 - nMaxAdjustUp) / 100;
-static const int64 nMaxActualTimespan = nAveragingTargetTimespan * (100 + nMaxAdjustDown) / 100;
     
 unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, int algo)
 {
@@ -1400,6 +1401,15 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
             return pindex->nBits;
         }
     }
+
+    if(pindexLast->nHeight+1 >= 955000){
+        nMaxAdjustDown = nMaxAdjustDown2;
+        nMaxAdjustUp = nMaxAdjustUp2;
+    }
+
+    int64 nMinActualTimespan = nAveragingTargetTimespan * (100 - nMaxAdjustUp) / 100;
+    int64 nMaxActualTimespan = nAveragingTargetTimespan * (100 + nMaxAdjustDown) / 100;
+
 
     // find previous block with same algo
     const CBlockIndex* pindexPrev = GetLastBlockIndexForAlgo(pindexLast, algo);
@@ -2399,8 +2409,10 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CDiskBlockPos* dbp)
         nHeight = pindexPrev->nHeight+1;
 
         // Check proof of work
+if (pindexPrev->nHeight < 915235 || 955000 < pindexPrev->nHeight) {
         if (block.nBits != GetNextWorkRequired(pindexPrev, &block, block.GetAlgo()))
             return state.DoS(100, error("AcceptBlock() : incorrect proof of work"));
+}
 
         // Check timestamp against prev
         if (block.GetBlockTime() <= pindexPrev->GetMedianTimePast())
