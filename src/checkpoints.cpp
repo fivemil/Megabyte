@@ -28,7 +28,6 @@ namespace Checkpoints
         double fTransactionsPerDay;
     };
 
-    const std::string CSyncCheckpoint::strMasterPubKey = 04d95f5e7f4129baa8e20cc3d40ed04abd63c951e384df133cac68e97ff748533136567e3d838221f3676bcc7000d557d1b777c05472d190b05bf7ba4fd310d32e
     bool fEnabled = true;
 
     // What makes a good checkpoint block?
