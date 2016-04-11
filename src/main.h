@@ -388,7 +388,7 @@ public:
             filein >> hashChecksum;
         }
         catch (std::exception &e) {
-            return error("%s() : deserialize or I/O error", __PRETTY_FUNCTION__);
+            return error("%s() : deserialize or I/O error", __PREMB_FUNCTION__);
         }
 
         // Verify checksum

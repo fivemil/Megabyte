@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Trinity</source>
-        <translation>O Trinityu</translation>
+        <source>About megabyte</source>
+        <translation>O megabyteu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Trinity&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Trinity&lt;/b&gt; verze</translation>
+        <source>&lt;b&gt;megabyte&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;megabyte&lt;/b&gt; verze</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The Trinity developers</source>
-        <translation>Vývojáři Trinityu</translation>
+        <source>The megabyte developers</source>
+        <translation>Vývojáři megabyteu</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Trinity addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tohle jsou tvé Trinityové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
+        <source>These are your megabyte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tohle jsou tvé megabyteové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Trinity address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem Trinityové adresy</translation>
+        <source>Sign a message to prove you own a megabyte address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem megabyteové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Trinity address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Trinityovou adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified megabyte address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou megabyteovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Trinity addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tohle jsou tvé Trinityové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
+        <source>These are your megabyte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tohle jsou tvé megabyteové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRINITYS&lt;/b&gt;!</source>
-        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY TRINITYY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR megabyteS&lt;/b&gt;!</source>
+        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY megabyteY&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-56"/>
-        <source>Trinity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
-        <translation>Trinity se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých trinityů malwarem, kterým se může počítač nakazit.</translation>
+        <source>megabyte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your megabytes from being stolen by malware infecting your computer.</source>
+        <translation>megabyte se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých megabyteů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Trinity</source>
-        <translation>Zobraz informace o Trinityu</translation>
+        <source>Show information about megabyte</source>
+        <translation>Zobraz informace o megabyteu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Trinity address</source>
-        <translation>Pošli mince na Trinityovou adresu</translation>
+        <source>Send coins to a megabyte address</source>
+        <translation>Pošli mince na megabyteovou adresu</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Trinity</source>
-        <translation>Uprav nastavení Trinityu</translation>
+        <source>Modify configuration options for megabyte</source>
+        <translation>Uprav nastavení megabyteu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Trinity</source>
-        <translation>Trinity</translation>
+        <source>megabyte</source>
+        <translation>megabyte</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Trinity</source>
-        <translation>O &amp;Trinityu</translation>
+        <source>&amp;About megabyte</source>
+        <translation>O &amp;megabyteu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Trinity addresses to prove you own them</source>
-        <translation>Podepiš zprávy svými Trinityovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
+        <source>Sign messages with your megabyte addresses to prove you own them</source>
+        <translation>Podepiš zprávy svými megabyteovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Trinity addresses</source>
-        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Trinityovými adresami</translation>
+        <source>Verify messages to ensure they were signed with specified megabyte addresses</source>
+        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými megabyteovými adresami</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+47"/>
-        <source>Trinity client</source>
-        <translation>Trinity klient</translation>
+        <source>megabyte client</source>
+        <translation>megabyte klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Trinity network</source>
-        <translation><numerusform>%n aktivní spojení do Trinityové sítě</numerusform><numerusform>%n aktivní spojení do Trinityové sítě</numerusform><numerusform>%n aktivních spojení do Trinityové sítě</numerusform></translation>
+        <source>%n active connection(s) to megabyte network</source>
+        <translation><numerusform>%n aktivní spojení do megabyteové sítě</numerusform><numerusform>%n aktivní spojení do megabyteové sítě</numerusform><numerusform>%n aktivních spojení do megabyteové sítě</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresa: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Trinity address or malformed URI parameters.</source>
-        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Trinityová adresa nebo poškozené parametry URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid megabyte address or malformed URI parameters.</source>
+        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná megabyteová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Trinity can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. Trinity nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. megabyte can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. megabyte nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Trinity address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná Trinityová adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid megabyte address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná megabyteová adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresa: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Trinity-Qt</source>
-        <translation>Trinity-Qt</translation>
+        <source>megabyte-Qt</source>
+        <translation>megabyte-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Trinity after logging in to the system.</source>
-        <translation>Automaticky spustí Trinity po přihlášení do systému.</translation>
+        <source>Automatically start megabyte after logging in to the system.</source>
+        <translation>Automaticky spustí megabyte po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Trinity on system login</source>
-        <translation>S&amp;pustit Trinity po přihlášení do systému</translation>
+        <source>&amp;Start megabyte on system login</source>
+        <translation>S&amp;pustit megabyte po přihlášení do systému</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,7 +844,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Trinity client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the megabyte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -854,8 +854,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Trinity network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Připojí se do Trinityové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
+        <source>Connect to the megabyte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Připojí se do megabyteové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Trinity.</source>
-        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Trinityu.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting megabyte.</source>
+        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování megabyteu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Trinity addresses in the transaction list or not.</source>
-        <translation>Zda ukazovat trinityové adresy ve výpisu transakcí nebo ne.</translation>
+        <source>Whether to show megabyte addresses in the transaction list or not.</source>
+        <translation>Zda ukazovat megabyteové adresy ve výpisu transakcí nebo ne.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresa: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Trinity.</source>
-        <translation>Nastavení se projeví až po restartování Trinityu.</translation>
+        <source>This setting will take effect after restarting megabyte.</source>
+        <translation>Nastavení se projeví až po restartování megabyteu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresa: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Trinity network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Trinityovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the megabyte network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s megabyteovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adresa: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start trinity: click-to-pay handler</source>
-        <translation>Nemůžu spustit trinity: obsluha click-to-pay</translation>
+        <source>Cannot start megabyte: click-to-pay handler</source>
+        <translation>Nemůžu spustit megabyte: obsluha click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Trinity-Qt help message to get a list with possible Trinity command-line options.</source>
-        <translation>Seznam parametrů Trinityu pro příkazovou řádku získáš v nápovědě Trinityu Qt.</translation>
+        <source>Show the megabyte-Qt help message to get a list with possible megabyte command-line options.</source>
+        <translation>Seznam parametrů megabyteu pro příkazovou řádku získáš v nápovědě megabyteu Qt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresa: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Trinity - Debug window</source>
-        <translation>Trinity - ladicí okno</translation>
+        <source>megabyte - Debug window</source>
+        <translation>megabyte - ladicí okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Trinity Core</source>
-        <translation>Jádro Trinityu</translation>
+        <source>megabyte Core</source>
+        <translation>Jádro megabyteu</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Trinity debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři soubor s ladicími záznamy Trinityu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
+        <source>Open the megabyte debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři soubor s ladicími záznamy megabyteu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Trinity RPC console.</source>
-        <translation>Vítej v Trinityové RPC konzoli.</translation>
+        <source>Welcome to the megabyte RPC console.</source>
+        <translation>Vítej v megabyteové RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Trinity address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadej Trinityovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a megabyte address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Zadej megabyteovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Trinity address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Trinityové adresy</translation>
+        <source>Sign the message to prove you own this megabyte address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této megabyteové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Trinity address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Trinityovou adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified megabyte address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou megabyteovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresa: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Trinity address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadej Trinityovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a megabyte address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Zadej megabyteovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Trinity signature</source>
-        <translation>Vlož Trinityový podpis</translation>
+        <source>Enter megabyte signature</source>
+        <translation>Vlož megabyteový podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adresa: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The Trinity developers</source>
-        <translation>Vývojáři Trinityu</translation>
+        <source>The megabyte developers</source>
+        <translation>Vývojáři megabyteu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adresa: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Trinity version</source>
-        <translation>Verze Trinityu</translation>
+        <source>megabyte version</source>
+        <translation>Verze megabyteu</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or trinityd</source>
-        <translation>Poslat příkaz pro -server nebo trinityd</translation>
+        <source>Send command to -server or megabyted</source>
+        <translation>Poslat příkaz pro -server nebo megabyted</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: trinity.conf)</source>
-        <translation>Konfigurační soubor (výchozí: trinity.conf)</translation>
+        <source>Specify configuration file (default: megabyte.conf)</source>
+        <translation>Konfigurační soubor (výchozí: megabyte.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: trinityd.pid)</source>
-        <translation>PID soubor (výchozí: trinityd.pid)</translation>
+        <source>Specify pid file (default: megabyted.pid)</source>
+        <translation>PID soubor (výchozí: megabyted.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,24 +2300,24 @@ Adresa: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=trinityrpc
+rpcuser=megabyterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;megabyte Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
 %s
 Je vhodné použít následující náhodné heslo:
-rpcuser=trinityrpc
+rpcuser=megabyterpc
 rpcpassword=%s
 (není potřeba si ho pamatovat)
 rpcuser a rpcpassword NESMÍ být stejné.
 Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
 Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
-například: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.com
+například: alertnotify=echo %%s | mail -s &quot;megabyte Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ například: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Trinity is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. Trinity pravděpodobně už jednou běží.</translation>
+        <source>Cannot obtain a lock on data directory %s. megabyte is probably already running.</source>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. megabyte pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ například: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Trinity will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Trinity nebude fungovat správně.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong megabyte will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, megabyte nebude fungovat správně.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ například: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Trinity Wiki for SSL setup instructions)</source>
-        <translation>Možnosti SSL: (viz instrukce nastavení SSL v Trinity Wiki)</translation>
+        <source>SSL options: (see the megabyte Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL: (viz instrukce nastavení SSL v megabyte Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ například: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Trinity</source>
-        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Trinityu</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of megabyte</source>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi megabyteu</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Trinity to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Trinity, aby se operace dokončila</translation>
+        <source>Wallet needed to be rewritten: restart megabyte to complete</source>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj megabyte, aby se operace dokončila</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ například: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Trinity is probably already running.</source>
-        <translation>Nedaří se mi připojit na %s na tomhle počítači. Trinity už pravděpodobně jednou běží.</translation>
+        <source>Unable to bind to %s on this computer. megabyte is probably already running.</source>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. megabyte už pravděpodobně jednou běží.</translation>
     </message>
     <message>
         <location line="+64"/>

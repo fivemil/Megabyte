@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Trinity</source>
-        <translation>Sobre Trinity</translation>
+        <source>About megabyte</source>
+        <translation>Sobre megabyte</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Trinity&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Trinity&lt;/b&gt; versió</translation>
+        <source>&lt;b&gt;megabyte&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;megabyte&lt;/b&gt; versió</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Trinity developers</source>
+        <source>The megabyte developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Trinity addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces Trinity per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
+        <source>These are your megabyte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces megabyte per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Trinity address</source>
-        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça Trinity</translation>
+        <source>Sign a message to prove you own a megabyte address</source>
+        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça megabyte</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -102,8 +102,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Trinity address</source>
-        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça Trinity específica</translation>
+        <source>Verify a message to ensure it was signed with a specified megabyte address</source>
+        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça megabyte específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -117,8 +117,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Trinity addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són la seva adreça de Trinity per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
+        <source>These are your megabyte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són la seva adreça de megabyte per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -243,8 +243,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRINITYS&lt;/b&gt;!</source>
-        <translation>Advertència: Si encripteu el vostre moneder i perdeu la constrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES TRINITYS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR megabyteS&lt;/b&gt;!</source>
+        <translation>Advertència: Si encripteu el vostre moneder i perdeu la constrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES megabyteS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Trinity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your trinitys from being stolen by malware infecting your computer.</source>
-        <translation>Trinity es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus trinitys de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
+        <source>megabyte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your megabytes from being stolen by malware infecting your computer.</source>
+        <translation>megabyte es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus megabytes de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Trinity</source>
-        <translation>Mostra informació sobre Trinity</translation>
+        <source>Show information about megabyte</source>
+        <translation>Mostra informació sobre megabyte</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Trinity address</source>
-        <translation>Enviar monedes a una adreça Trinity</translation>
+        <source>Send coins to a megabyte address</source>
+        <translation>Enviar monedes a una adreça megabyte</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Trinity</source>
-        <translation>Modificar les opcions de configuració per trinity</translation>
+        <source>Modify configuration options for megabyte</source>
+        <translation>Modificar les opcions de configuració per megabyte</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Trinity</source>
-        <translation>Trinity</translation>
+        <source>megabyte</source>
+        <translation>megabyte</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Trinity</source>
-        <translation>&amp;Sobre Trinity</translation>
+        <source>&amp;About megabyte</source>
+        <translation>&amp;Sobre megabyte</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,13 +495,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Trinity addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seva adreça de Trinity per provar que les poseeixes</translation>
+        <source>Sign messages with your megabyte addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seva adreça de megabyte per provar que les poseeixes</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Trinity addresses</source>
-        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça Trinity específica.</translation>
+        <source>Verify messages to ensure they were signed with specified megabyte addresses</source>
+        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça megabyte específica.</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Trinity client</source>
-        <translation>Client Trinity</translation>
+        <source>megabyte client</source>
+        <translation>Client megabyte</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Trinity network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Trinity</numerusform><numerusform>%n connexions actives a la xarxa Trinity</numerusform></translation>
+        <source>%n active connection(s) to megabyte network</source>
+        <translation><numerusform>%n connexió activa a la xarxa megabyte</numerusform><numerusform>%n connexions actives a la xarxa megabyte</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -647,8 +647,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Trinity address or malformed URI parameters.</source>
-        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça Trinity invalida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid megabyte address or malformed URI parameters.</source>
+        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça megabyte invalida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -662,8 +662,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Trinity can no longer continue safely and will quit.</source>
-        <translation>Ha tingut lloc un error fatal. Trinity no pot continuar executant-se de manera segura i es tancará.</translation>
+        <source>A fatal error occurred. megabyte can no longer continue safely and will quit.</source>
+        <translation>Ha tingut lloc un error fatal. megabyte no pot continuar executant-se de manera segura i es tancará.</translation>
     </message>
 </context>
 <context>
@@ -728,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Trinity address.</source>
-        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça Trinity valida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid megabyte address.</source>
+        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça megabyte valida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Trinity-Qt</source>
-        <translation>Trinity-Qt</translation>
+        <source>megabyte-Qt</source>
+        <translation>megabyte-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Trinity after logging in to the system.</source>
-        <translation>Iniciar automàticament Trinity després de l&apos;inici de sessió del sistema.</translation>
+        <source>Automatically start megabyte after logging in to the system.</source>
+        <translation>Iniciar automàticament megabyte després de l&apos;inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Trinity on system login</source>
-        <translation>&amp;Iniciar Trinity al inici de sessió del sistema.</translation>
+        <source>&amp;Start megabyte on system login</source>
+        <translation>&amp;Iniciar megabyte al inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Trinity client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir el port del client de Trinity al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
+        <source>Automatically open the megabyte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir el port del client de megabyte al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Trinity network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connectar a la xarxa Trinity a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
+        <source>Connect to the megabyte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connectar a la xarxa megabyte a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Trinity.</source>
-        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï Trinity.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting megabyte.</source>
+        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï megabyte.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -935,8 +935,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Trinity addresses in the transaction list or not.</source>
-        <translation>Mostrar adreces Trinity als llistats de transaccions o no.</translation>
+        <source>Whether to show megabyte addresses in the transaction list or not.</source>
+        <translation>Mostrar adreces megabyte als llistats de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -987,8 +987,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Trinity.</source>
-        <translation>Aquesta configuració tindrà efecte un cop es reiniciï Trinity.</translation>
+        <source>This setting will take effect after restarting megabyte.</source>
+        <translation>Aquesta configuració tindrà efecte un cop es reiniciï megabyte.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1006,8 +1006,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Trinity network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Trinity un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the megabyte network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa megabyte un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1060,8 +1060,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start trinity: click-to-pay handler</source>
-        <translation>No es pot iniciar trinity: manejador clicla-per-pagar</translation>
+        <source>Cannot start megabyte: click-to-pay handler</source>
+        <translation>No es pot iniciar megabyte: manejador clicla-per-pagar</translation>
     </message>
 </context>
 <context>
@@ -1210,8 +1210,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Trinity-Qt help message to get a list with possible Trinity command-line options.</source>
-        <translation>Mostrar el missatge d&apos;ajuda de Trinity-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de Trinity.</translation>
+        <source>Show the megabyte-Qt help message to get a list with possible megabyte command-line options.</source>
+        <translation>Mostrar el missatge d&apos;ajuda de megabyte-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de megabyte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1230,13 +1230,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Trinity - Debug window</source>
-        <translation>Trinity -Finestra de debug</translation>
+        <source>megabyte - Debug window</source>
+        <translation>megabyte -Finestra de debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Trinity Core</source>
-        <translation>Nucli de Trinity</translation>
+        <source>megabyte Core</source>
+        <translation>Nucli de megabyte</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1245,8 +1245,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Trinity debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obrir el dietari de debug de Trinity del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
+        <source>Open the megabyte debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obrir el dietari de debug de megabyte del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1255,8 +1255,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Trinity RPC console.</source>
-        <translation>Benvingut a la consola RPC de Trinity</translation>
+        <source>Welcome to the megabyte RPC console.</source>
+        <translation>Benvingut a la consola RPC de megabyte</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1439,8 +1439,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Trinity address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introdueixi una adreça de Trinity (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a megabyte address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introdueixi una adreça de megabyte (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1504,8 +1504,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Trinity address</source>
-        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça Trinity</translation>
+        <source>Sign the message to prove you own this megabyte address</source>
+        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça megabyte</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1540,8 +1540,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Trinity address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Trinity específica</translation>
+        <source>Verify the message to ensure it was signed with the specified megabyte address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça megabyte específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1556,8 +1556,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Trinity address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introdueixi una adreça de Trinity (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a megabyte address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introdueixi una adreça de megabyte (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1566,8 +1566,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Trinity signature</source>
-        <translation>Introduïr una clau Trinity</translation>
+        <source>Enter megabyte signature</source>
+        <translation>Introduïr una clau megabyte</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1640,7 +1640,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The Trinity developers</source>
+        <source>The megabyte developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2178,8 +2178,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Trinity version</source>
-        <translation>Versió de Trinity</translation>
+        <source>megabyte version</source>
+        <translation>Versió de megabyte</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2188,8 +2188,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or trinityd</source>
-        <translation>Enviar comanda a -servidor o trinityd</translation>
+        <source>Send command to -server or megabyted</source>
+        <translation>Enviar comanda a -servidor o megabyted</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2208,13 +2208,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: trinity.conf)</source>
-        <translation>Especificat arxiu de configuració (per defecte: trinity.conf)</translation>
+        <source>Specify configuration file (default: megabyte.conf)</source>
+        <translation>Especificat arxiu de configuració (per defecte: megabyte.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: trinityd.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: trinityd.pid)</translation>
+        <source>Specify pid file (default: megabyted.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: megabyted.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2291,15 +2291,15 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=trinityrpc
+rpcuser=megabyterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;megabyte Alert&quot; admin@foo.com
 </source>
-        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=trinityrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.com</translation>
+        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=megabyterpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;megabyte Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2313,8 +2313,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Trinity is probably already running.</source>
-        <translation>No es pot bloquejar el directori de dades %s. Probablement Trinity ja estigui en execució.</translation>
+        <source>Cannot obtain a lock on data directory %s. megabyte is probably already running.</source>
+        <translation>No es pot bloquejar el directori de dades %s. Probablement megabyte ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2358,8 +2358,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Trinity will not work properly.</source>
-        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, Trinity no funcionará de manera apropiada.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong megabyte will not work properly.</source>
+        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, megabyte no funcionará de manera apropiada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2608,8 +2608,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Trinity Wiki for SSL setup instructions)</source>
-        <translation>Opcions SSL: (veure la Wiki de Trinity per a instruccions de configuració SSL)</translation>
+        <source>SSL options: (see the megabyte Wiki for SSL setup instructions)</source>
+        <translation>Opcions SSL: (veure la Wiki de megabyte per a instruccions de configuració SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2798,13 +2798,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Trinity</source>
-        <translation>Error carregant wallet.dat: El moneder requereix una versió de Trinity més moderna</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of megabyte</source>
+        <translation>Error carregant wallet.dat: El moneder requereix una versió de megabyte més moderna</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Trinity to complete</source>
-        <translation>El moneder necesita ser re-escrit: re-inicia Trinity per a completar la tasca</translation>
+        <source>Wallet needed to be rewritten: restart megabyte to complete</source>
+        <translation>El moneder necesita ser re-escrit: re-inicia megabyte per a completar la tasca</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2863,8 +2863,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Trinity Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Trinity is probably already running.</source>
-        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement Trinity ja estigui en execució.</translation>
+        <source>Unable to bind to %s on this computer. megabyte is probably already running.</source>
+        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement megabyte ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+64"/>

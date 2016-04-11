@@ -1,11 +1,11 @@
-Trinity
+megabyte
 ===================================
 
 
-What is Trinity?
+What is megabyte?
 ------------------
 
-Trinity is a new crypto-currency that includes three algorithms and random rewards.
+megabyte is a new crypto-currency that includes three algorithms and random rewards.
 
 Specifications
 ------------------
@@ -15,7 +15,7 @@ Specifications
 License
 -------
 
-Trinity is released under the terms of the MIT license. See `COPYING` for more
+megabyte is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Deps

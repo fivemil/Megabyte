@@ -35,7 +35,7 @@ bool AppInit(int argc, char* argv[])
         //
         // Parameters
         //
-        // If Qt is used, parameters/trinity.conf are parsed in qt/bitcoin.cpp's main()
+        // If Qt is used, parameters/megabyte.conf are parsed in qt/bitcoin.cpp's main()
         ParseParameters(argc, argv);
         if (!boost::filesystem::is_directory(GetDataDir(false)))
         {
@@ -46,13 +46,13 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to trinityd / RPC client
-            std::string strUsage = _("Trinity version") + " " + FormatFullVersion() + "\n\n" +
+            // First part of help message is specific to megabyted / RPC client
+            std::string strUsage = _("megabyte version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  trinityd [options]                     " + "\n" +
-                  "  trinityd [options] <command> [params]  " + _("Send command to -server or trinityd") + "\n" +
-                  "  trinityd [options] help                " + _("List commands") + "\n" +
-                  "  trinityd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  megabyted [options]                     " + "\n" +
+                  "  megabyted [options] <command> [params]  " + _("Send command to -server or megabyted") + "\n" +
+                  "  megabyted [options] help                " + _("List commands") + "\n" +
+                  "  megabyted [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -62,7 +62,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "trinity:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "megabyte:"))
                 fCommandLine = true;
 
         if (fCommandLine)
@@ -129,7 +129,7 @@ int main(int argc, char* argv[])
     bool fRet = false;
     fHaveGUI = false;
 
-    // Connect trinityd signal handlers
+    // Connect megabyted signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);

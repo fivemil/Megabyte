@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2013 The Bitcoin developers
 // Copyright (c) 2013-2014 The Zetacoin developers
 // Copyright (c) 2014 The Huntercoin developers
-// Copyright (c) 2014 The Trinity developers
+// Copyright (c) 2014 The megabyte developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -71,7 +71,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Trinity Signed Message:\n";
+const string strMessageMagic = "megabyte Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -1129,11 +1129,11 @@ bool GetTransaction(const uint256 &hash, CTransaction &txOut, uint256 &hashBlock
                     fseek(file, postx.nTxOffset, SEEK_CUR);
                     file >> txOut;
                 } catch (std::exception &e) {
-                    return error("%s() : deserialize or I/O error", __PRETTY_FUNCTION__);
+                    return error("%s() : deserialize or I/O error", __PREMB_FUNCTION__);
                 }
                 hashBlock = header.GetHash();
                 if (txOut.GetHash() != hash)
-                    return error("%s() : txid mismatch", __PRETTY_FUNCTION__);
+                    return error("%s() : txid mismatch", __PREMB_FUNCTION__);
                 return true;
             }
         }
@@ -1225,7 +1225,7 @@ bool ReadBlockFromDisk(CBlock& block, const CDiskBlockPos& pos)
         filein >> block;
     }
     catch (std::exception &e) {
-        return error("%s() : deserialize or I/O error", __PRETTY_FUNCTION__);
+        return error("%s() : deserialize or I/O error", __PREMB_FUNCTION__);
     }
 
     // Check the header
@@ -1288,11 +1288,11 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     std::string cseed_str = prevHash.ToString().substr(5,7);
     const char* cseed = cseed_str.c_str();
     long seed = hex2long(cseed);
-    int rand = generateMTRandom(seed, 101);
+    int rand = generateMTRandom(seed, 151);
 
     if(nHeight == 10)
     {
-        nSubsidy *= 20000;
+        nSubsidy *= 200000;
     }
 
     if(rand > 0 && rand < 60)
@@ -1319,15 +1319,15 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     {
         nSubsidy *= 50;
     }
-
-    if(nHeight > 900000) 
-                nSubsidy = 0;
-			
-    if(nHeight > 915550)
-		        nSubsidy = (1 + rand) * COIN;
-
-
+	if(rand > 101 && rand < 111)
+    {
+        nSubsidy *= 4.2;
+    }
     return nSubsidy + nFees;
+	if(rand > 111 && rand < 151)
+    {
+        nSubsidy *= 1.420;
+    }
 }
 
 static const int64 nTargetTimespan = 1 * 60; // 1 minutes (NUM_ALGOS * 30 seconds) readjusts difficulty
@@ -1337,7 +1337,7 @@ static const int64 nInterval = 2; // retargets every 2 blocks
 static const int64 nAveragingInterval = 10; // 10 blocks
 static const int64 nAveragingTargetTimespan = nAveragingInterval * nTargetSpacing; // 15 minutes
 
-static int64 nMaxAdjustDown = 100; // 100% adjustment down
+static int64 nMaxAdjustDown = 10; // 10% adjustment down
 static int64 nMaxAdjustUp = 10; // 10% adjustment up
 
 static const int64 nMaxAdjustDown2 = 5; // 5% adjustment down
@@ -3181,7 +3181,7 @@ bool LoadExternalBlockFile(FILE* fileIn, CDiskBlockPos *dbp)
                         break;
                 }
             } catch (std::exception &e) {
-                printf("%s() : Deserialize or I/O error caught during load\n", __PRETTY_FUNCTION__);
+                printf("%s() : Deserialize or I/O error caught during load\n", __PREMB_FUNCTION__);
             }
         }
         fclose(fileIn);
@@ -4757,7 +4757,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     uint256 hashBlock = pblock->GetHash();
 
     //// debug print
-    printf("TrinityMiner:\n");
+    printf("megabyteMiner:\n");
     printf("proof-of-work found\n  block-hash: %s\n  pow-hash: %s\n  target: %s\n", 
         hashBlock.GetHex().c_str(), 
         hashPoW.GetHex().c_str(), 
@@ -4769,7 +4769,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("TrinityMiner : generated block is stale");
+            return error("megabyteMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4783,7 +4783,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("TrinityMiner : ProcessBlock, block not accepted");
+            return error("megabyteMiner : ProcessBlock, block not accepted");
     }
 
     return true;
@@ -5171,7 +5171,7 @@ void static GenericMiner(CWallet *pwallet, int algo)
 
 void static ThreadBitcoinMiner(CWallet *pwallet)
 {
-    printf("Trinity miner started\n");
+    printf("megabyte miner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("bitcoin-miner");
     
@@ -5192,7 +5192,7 @@ void static ThreadBitcoinMiner(CWallet *pwallet)
     }
     catch (boost::thread_interrupted)
     {
-        printf("Trinity miner terminated\n");
+        printf("megabyte miner terminated\n");
         throw;
     }
 }

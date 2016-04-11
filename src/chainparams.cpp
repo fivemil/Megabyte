@@ -23,10 +23,10 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         // The message start string is designed to be unlikely to occur in normal data.
-        pchMessageStart[0] = 0x64;
-        pchMessageStart[1] = 0x72;
-        pchMessageStart[2] = 0xe8;
-        pchMessageStart[3] = 0xa6;
+        pchMessageStart[0] = 0xf4;
+        pchMessageStart[1] = 0xe5;
+        pchMessageStart[2] = 0x34;
+        pchMessageStart[3] = 0x42;
         vAlertPubKey = ParseHex("04a82e43bebee0af77bb6d4f830c5b2095b7479a480e91bbbf3547fb261c5e6d1be2c27e3c57503f501480f5027371ec62b2be1b6f00fc746e4b3777259e7f6a78");
         nDefaultPort = 62621;
         nRPCPort = 6420;
@@ -59,11 +59,11 @@ public:
         assert(hashGenesisBlock == uint256("0x000003070f466e13150a395e05856c99c5f70f9934e1d1cc0aa6dd8024de7743"));
         assert(genesis.hashMerkleRoot == uint256("0xda9dc50395fb1134b8bf04ffff1963ee78b1d7c4b423466b85a5ed352ded5cf5"));
 
-        //vSeeds.push_back(CDNSSeedData("trinity.com", "trinity.com"));
+        //vSeeds.push_back(CDNSSeedData("megabyte.com", "megabyte.com"));
         //vSeeds.push_back(CDNSSeedData("182.18.175.110", "182.18.175.110"));
 
 
-        base58Prefixes[PUBKEY_ADDRESS] = 30; //Trinity address starts with D
+        base58Prefixes[PUBKEY_ADDRESS] = 30; //megabyte address starts with D
         base58Prefixes[SCRIPT_ADDRESS] = 5;
         base58Prefixes[SECRET_KEY] = 177;
 
@@ -102,10 +102,10 @@ class CTestNetParams : public CMainParams {
 public:
     CTestNetParams() {
         // The message start string is designed to be unlikely to occur in normal data.
-        pchMessageStart[0] = 0x01;
-        pchMessageStart[1] = 0xf5;
-        pchMessageStart[2] = 0x55;
-        pchMessageStart[3] = 0xa4;
+        pchMessageStart[0] = 0x02;
+        pchMessageStart[1] = 0xf3;
+        pchMessageStart[2] = 0x54;
+        pchMessageStart[3] = 0xa5;
         vAlertPubKey = ParseHex("044adf046e6bc86fb83ef92f261fa3feff9176bd029c5ad4afb5c52ac21f9851f2b2eb861cdbf2c09e0cb97dbf75c6ca5ff6c5df88cfb244c72dba1d44b5a47655");
         nDefaultPort = 162621;
         nRPCPort = 16420;
@@ -121,7 +121,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("seed1.trinity.org", "testseed1.trinity.org"));
+        vSeeds.push_back(CDNSSeedData("seed1.megabyte.org", "testseed1.megabyte.org"));
         vSeeds.push_back(CDNSSeedData("seed2.dirtydiggers.org", "www.dirtydiggers.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 12;

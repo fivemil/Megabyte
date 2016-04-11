@@ -126,10 +126,10 @@ OBJS += $(OBJS_SSE2)
 endif
 
 
-all: trinityd.exe
+all: megabyted.exe
 
-test check: test_trinity.exe FORCE
-	test_trinity.exe
+test check: test_megabyte.exe FORCE
+	test_megabyte.exe
 
 #
 # LevelDB support
@@ -148,7 +148,7 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(CFLAGS) -fpermissive -o $@ $<
 
-trinityd.exe: $(OBJS:obj/%=obj/%)
+megabyted.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -156,11 +156,11 @@ TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 obj-test/%.o: test/%.cpp $(HEADERS)
 	$(CXX) -c $(TESTDEFS) $(CFLAGS) -o $@ $<
 
-test_trinity.exe: $(TESTOBJS) $(filter-out obj/init.o obj/trinityd.o,$(OBJS:obj/%=obj/%))
+test_megabyte.exe: $(TESTOBJS) $(filter-out obj/init.o obj/megabyted.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework$(BOOST_SUFFIX) $(LIBS)
 
 clean:
-	rm -f trinityd.exe test_trinity.exe
+	rm -f megabyted.exe test_megabyte.exe
 	rm -f obj/*
 	rm -f obj-test/*
 	cd leveldb && $(MAKE) TARGET_OS=NATIVE_WINDOWS clean && cd ..

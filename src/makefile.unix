@@ -164,10 +164,10 @@ OBJS += $(OBJS_SSE2)
 endif
 
 
-all: trinityd
+all: megabyted
 
-test check: test_trinity FORCE
-	./test_trinity
+test check: test_megabyte FORCE
+	./test_megabyte
     
 #
 # LevelDB support
@@ -202,7 +202,7 @@ obj/%.o: %.c
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
       
-trinityd: $(OBJS:obj/%=obj/%)
+megabyted: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -214,11 +214,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_trinity: $(TESTOBJS) $(filter-out obj/init.o obj/trinityd.o,$(OBJS:obj/%=obj/%))
+test_megabyte: $(TESTOBJS) $(filter-out obj/init.o obj/megabyted.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f trinityd test_trinity
+	-rm -f megabyted test_megabyte
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P
